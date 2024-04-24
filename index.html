@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & User Input</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="maincontainer">
+
+        <h1>UpSkill Task 3 - Forms & User Input</h1>
+
+        <div id="container">
+
+            <form action="">
+
+                <div class="inputs info">
+                    <label for="name" class="mainLabel">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                </div> 
+
+                <div class="inputs info">
+                    <label for="email" class="mainLabel">Email</label>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="inputs info">
+                    <label for="age" class="mainLabel">Age</label>
+                    <input type="text" name="age" placeholder="Enter your Age" required>
+                </div>
+                
+                <div class="inputs">
+                    <label for="select" class="mainLabel">Which option best describes you?</label>
+                    <select name="select" id="">
+                        <option value="Student">Student</option>
+                        <option value="Freelancer">Freelancer</option>
+                        <option value="Tech Instructor">Tech Instructor</option>
+                        <option value="Co-ordination">Co-ordinator</option>
+                        <option value="wr">Mentor</option>
+                    </select>
+                </div>
+
+                <div class="inputs">
+
+                    <label for="radio" class="mainLabel">Would you recommend Genesys UpSkill to a friend?</label>
+                    <input type="radio" name="radio" class="radios" value="Yes">
+                    <label for="radio">Yes</label> <br>
+
+                    <input type="radio" name="radio" class="radios" value="No">
+                    <label for="radio">No</label><br>
+
+                    <input type="radio" name="radio" class="radios" value="No">
+                    <label for="radio">Maybe</label><br>
+            
+                </div>
+
+                <div class="inputs">
+
+                    <label for="checkbox" class="mainLabel">Languages and Frameworks known <span>(check all that apply)</span></label>
+                    <input type="checkbox" class="checkboxes" name="checkBox1" value="C">
+                    <label for="checkBox1">C</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox2" value="C++">
+                    <label for="checkBox2">C++</label><br>
+                    
+                    <input type="checkbox" class="checkboxes" name="checkBox3" value="C#">
+                    <label for="checkBox3">C#</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox4" value="Java">
+                    <label for="checkBox4">Java</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox5" value="Python">
+                    <label for="checkBox5">Python</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox6" value="JavaScript">
+                    <label for="checkBox6">JavaScript</label><br>
+                    
+                    <input type="checkbox" class="checkboxes" name="checkBox7" value="React">
+                    <label for="checkBox7">React</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox8" value="Angular">
+                    <label for="checkBox8">Angular</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox9" value="Django">
+                    <label for="checkBox9">Django</label><br>
+
+                    <input type="checkbox" class="checkboxes" name="checkBox10" value="Spring">
+                    <label for="checkBoxes10">Spring</label><br>
+
+                </div>
+
+                <div class="inputs">
+
+                    <label for="textarea" class="mainLabel">Any comments or suggestions?</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="6"></textarea>
+                
+                </div>
+
+                <div class="inputs info">
+                    <button>Submit</button>
+                </div> 
+                
+            </form>
+        </div>
+
+    </div>
+
+    <div id="credit">
+        <a href="https://www.freepik.com/author/artcuboy1"><p>Picture credit: artcuboy1 on FreeP!k</p></a>
+    </div>
+
+</body>
+</html>

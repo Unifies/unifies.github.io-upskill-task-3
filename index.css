@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body{
+    background-image: url("background-img.jpg");
+    background-size: cover;
+    font-family: 'josefin sans';
+    font-size: large;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+#maincontainer{
+    background-color: silver;
+    opacity: 0.8;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.mainLabel{
+    display: block;
+    margin-top: 20px;
+}
+
+.info input{
+    width: 60%;
+    height: 27px;
+    background-color: silver;
+}
+
+.inputs select{
+    width: 60%;
+    height: 30px;
+    background-color: silver;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: silver;
+    font-size: larger;
+    margin-top: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#credit{
+    padding-top: 20px;
+}
+
+a p{
+    
+    text-decoration: none;
+    color: silver;
+}
